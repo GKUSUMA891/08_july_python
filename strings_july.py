@@ -151,8 +151,7 @@ print(a[1])
 print(a[1:3])
 print('m' in a)
 print('marc' not in a) 
-
-
+print('jam' not in a)
 
 
 
