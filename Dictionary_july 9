@@ -1,0 +1,70 @@
+#Dictionary:
+dict={}
+print(dict)
+dict={"key":"values",1:"python",2:"data_structure",} #multiple keys/values
+dict[4]="name"
+print(dict)
+
+dict["key"]="number"   #update
+print(dict)
+
+#name={"my":"kusuma","my":"prema"} #error
+name={"my1":"kusuma","my":"prema"}
+print(name)
+name["my"]="venki" #update()
+print(name)
+name1=name.copy() #copy()
+print(name1)
+name.clear()  #clear()
+print(name)
+
+d={1:"a",2:"b",3:"c"}
+print(d)
+d1=dict.fromkeys(d) #keys()
+print(d1)
+d1.pop(2)   #pop()
+print(d1)
+x=d.get(3)   #get()
+print(x)
+d[3]="maxi"
+print(d)
+a={"key":"values",1:"python",2:"data_structure","ipl":"rcb"}
+a1=a.keys()  #keys()
+print(a1)
+a2=a.items() #items()
+print(a2)
+abd={"key":"values",1:"python",2:"data_structure","ipl":"rcb"}
+'''y=abd.pop["ipl"]
+print(y)'''
+call=abd.popitem() #pop last item
+print(call)
+call1=abd.setdefault("match","mumbai")
+print(abd)
+print(call1)
+gef={"animal":"monkey"}
+abd.update(gef) #update()
+print(abd)
+#abd.values()
+print(abd.values())
+print(list(abd))   #list
+print(tuple(abd))    #tuple
+print(list("ipl")) #list
+
+dict[1]={1:"mango",2:"apple",3:"grapes"}
+dict[2]={10:"thunder:",20:"soft","name":"wipro"}
+print(dict[1].values())
+print(dict[2].values())
+dict[1]=dict[2].copy()
+print(dict[1])
+
+dosth={1:"manju",2:"arun",3:"vinod",4:"thejas"}
+print("he is my best friend")
+print(dosth.get(1))
+dosth={1:"manju",2:"arun",3:[1,2,3,4],4:"thejas"}
+print(dosth[3])
+print(dosth[1])
+
+print("my friend",dosth[4])
+
+
+
